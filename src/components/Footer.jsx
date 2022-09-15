@@ -5,12 +5,12 @@ import macron from '../assets/macron.png';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='bg-secondary bg-hero-image text-primary bg-cover'>
         <div>
             <h2>TRIBUTES</h2>
             <p>World leaders pay tribute to Queen Elizabeth II</p>
         </div>
-        <div>
+        <div className='flex flex-col lg:flex-row'>
             <div>
                 <img src={buhari} alt='president'/>
                 <p>The story of modern Nigeria will never be complete without a chapter on Queen Elizabeth ll, a towering global personality and an outstanding leader. She dedicated her life to making her nation, the Commonwealth and the entire world a better place.”</p>

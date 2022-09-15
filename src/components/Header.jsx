@@ -6,7 +6,7 @@ import logo from '../assets/header-logo.png';
 const Header = () => {
   return (
     <header className='text-primary'>
-        <nav className='bg-secondary myown bg-hero-image bg-cover flex md:flex-row justify-between py-3 px-4 md:px-20 md:py-4'>
+        <nav className='bg-secondary bg-hero-image bg-cover flex md:flex-row justify-between py-3 px-4 md:px-20 md:py-4'>
             <img src={nav} alt='logo' />
             <ul className='hidden md:flex items-center gap-x-4'>
                 <li className='opacity-50 hover:opacity-100'><a href='/#'>Home</a></li>

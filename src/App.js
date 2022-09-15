@@ -2,7 +2,7 @@ import Header from './components/Header';
 import Biography from './components/Biography';
 import Timeline from './components/Timeline.jsx';
 import Contact from './components/Contact.jsx';
-//import Footer from './components/Footer.jsx'; 
+import Footer from './components/Footer.jsx'; 
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Biography />
       <Timeline />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
