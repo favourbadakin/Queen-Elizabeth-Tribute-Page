@@ -1,25 +1,15 @@
 import React from 'react';
-import buhari from '../assets/buhari.png';
-import macron from '../assets/macron.png';
-
+import logo from '../assets/nav-logo.png';
 
 const Footer = () => {
   return (
-    <footer className='bg-secondary bg-hero-image text-primary bg-cover'>
-        <div>
-            <h2>TRIBUTES</h2>
-            <p>World leaders pay tribute to Queen Elizabeth II</p>
-        </div>
-        <div className='flex flex-col lg:flex-row'>
-            <div>
-                <img src={buhari} alt='president'/>
-                <p>The story of modern Nigeria will never be complete without a chapter on Queen Elizabeth ll, a towering global personality and an outstanding leader. She dedicated her life to making her nation, the Commonwealth and the entire world a better place.”</p>
+    <footer className='bg-secondary bg-hero-image pt-4 text-primary text-center'>
+             <hr className='opacity-60' />
+            <div className='grid place-items-center mt-4'>
+                <img src={logo} alt='logo' />
+               <h3 className='cabinet uppercase mt-4 font-medium text-xl'>Queen Elizabeth alexandra mary windsor</h3>
+               <div className='pt-2 pb-10'><span className='opacity-50 italic'>Forever in our hearts</span><span>🕊️❤️</span></div>
             </div>
-            <div>
-                <img src={macron} alt='president'/>
-                <p>“Her Majesty Queen Elizabeth II embodied the British nation's continuity and unity for over 70 years. I remember her as a friend of France, a kind-hearted queen who has left a lasting impression on her country and her century.”</p>
-            </div>
-        </div>
     </footer>
   )
 }

@@ -5,10 +5,10 @@ import img3 from '../assets/pic8.png';
 
 const Timeline = () => {
   return (
-    <section className='px-4 md:px-[11rem]'>
+    <section className='px-4 md:px-[11rem]' id='timeline'>
         <div>
             <div>
-                <h2 className='font-bold md:text-4xl text-center lg:text-left lg:text-5xl'>Timeline</h2>
+                <h2 className='uppercase font-bold md:text-4xl text-center lg:text-left lg:text-5xl'>Timeline</h2>
                 <p className='text-sm mt-2 text-center lg:text-left mb-6'>Key dates in the life of the Queen, from her birth in April 1926 to her death in September 2022</p>
             </div>
             <div>

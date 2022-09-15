@@ -10,11 +10,11 @@ const Header = () => {
             <img src={nav} alt='logo' />
             <ul className='hidden md:flex items-center gap-x-4'>
                 <li className='opacity-50 hover:opacity-100'><a href='/#'>Home</a></li>
-                <li className='opacity-50 hover:opacity-100'><a href='/#'>Biography</a></li>
-                <li className='opacity-50 hover:opacity-100'><a href='/#'>Timeline</a></li>
-                <li className='opacity-50 hover:opacity-100'><a href='/#'>Gallery</a></li>
-                <li className='opacity-50 hover:opacity-100'><a href='/#'>Tributes</a></li>
-                <li><button className='border border-primary px-4 py-2 hover:bg-primary hover:text-secondary'><a href='/#'>Write Tribute</a></button></li>
+                <li className='opacity-50 hover:opacity-100'><a href='#biography'>Biography</a></li>
+                <li className='opacity-50 hover:opacity-100'><a href='#timeline'>Timeline</a></li>
+                <li className='opacity-50 hover:opacity-100'><a href='#biography'>Gallery</a></li>
+                <li className='opacity-50 hover:opacity-100'><a href='#tributes'>Tributes</a></li>
+                <li><button className='border border-primary px-4 py-2 hover:bg-primary hover:text-secondary'><a href='#write'>Write Tribute</a></button></li>
             </ul>
         </nav>
         <div className='bg-hero-image bg-no-repeat bg-cover flex flex-col md:flex-row justify-between bg-secondary px-4 md:px-20'>
