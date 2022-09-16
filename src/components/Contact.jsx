@@ -5,7 +5,7 @@ const Contact = () => {
     <section className='bg-hero-image font-medium px-4  md:px-[11rem] pb-8 text-secondary pt-10' id='write'>
         <div className='text-center mt-6 mb-6 lg:text-left '>
             <h2 className='uppercase mb-2 font-bold text-xl md:text-4xl lg:text-5xl'>Write Tributes</h2>
-            <p className='text-sm'>Send some words of condolement to the Royal Fami!y</p>
+            <p className='text-sm'>Send some words of condolence to the Royal Fami!y</p>
         </div>
         <div className='flex gap-8'>
             <div className='w-full'>
@@ -14,10 +14,10 @@ const Contact = () => {
                         <label htmlFor='Name' className='mr-7 font-semibold'>Name</label>
                         <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Name'></input>
                     </div>
-                    <div className='md:flex justify-between items-center mb-8'>
+                    {/* <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Email' className='mr-8 font-semibold'>Email</label>
                         <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Email'></input>
-                    </div>
+                    </div> */}
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Subject' className='mr-4 font-semibold'>Subject</label>
                         <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Subject'></input>
