@@ -1,14 +1,12 @@
-import { initializeApp } from "firebase/app";
+import firebase from 'firebase';
 
-const firebaseConfig = {
-  apiKey: process.env.REACT_APP_APIKEY,
-  authDomain: process.env.REACT_APP_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECTID,
-  storageBucket: process.env.REACT_APP_STORAGE,
-  messagingSenderId: process.env.REACT_APP_SENDERID,
-  appId: process.env.REACT_APP_APPID
-};
+let firebaseApp = firebase.initializeApp({
+    authDomain: process.env.REACT_APP_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGE,
+    messagingSenderId: process.env.REACT_APP_SENDERID,
+    appId: process.env.REACT_APP_APPID
+});
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
+let db = firebaseApp.firestore();
+export { db }

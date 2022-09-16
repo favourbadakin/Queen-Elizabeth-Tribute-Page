@@ -24,7 +24,7 @@ const Tributes = () => {
             <hr className='text-primary opacity-20 py-4'/>
             <div className='md:w-[40%] lg:w-full'>
                 <div className='flex flex-col xl:flex-row gap-x-6'>
-                    <img src={macron} className='object-contain sm:object-cover' alt='president'/>
+                    <img src={macron} className='object-contain sm:object-cover h-full' alt='president'/>
                     <p className='md:w-64 mt-3 xl:mt-0 opacity-50 text-center md:text-left text-sm'>“Her Majesty Queen Elizabeth II embodied the British nation's continuity and unity for over 70 years. I remember her as a friend of France, a kind-hearted queen who has left a lasting impression on her country and her century.”</p>
                 </div>
                 <div className='text-center lg:text-left'>
