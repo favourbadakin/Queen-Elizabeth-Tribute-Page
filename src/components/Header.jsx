@@ -12,11 +12,10 @@ const Header = () => {
     const handleClick = () => {
         setNav(!nav)
     }
-   
 
   return (
     <header className='text-primary'>
-        <nav className='bg-secondary bg-hero-image bg-cover drop-shadow-[0px_2px_12px_rgba(231,232,233,0.04)] flex md:flex-row justify-between py-3 px-4 md:px-20 md:py-4'>
+        <nav className='bg-secondary bg-hero-image bg-cover drop-shadow-[0px_2px_12px_rgba(231,232,233,0.04)] flex md:flex-row justify-between items-center py-3 px-5 md:px-20 md:py-4'>
             <img src={navp} alt='logo' />
             <ul className='hidden lg:flex items-center gap-x-4'>
                 <li className='opacity-50 hover:opacity-100'><a href='/#'>Home</a></li>
