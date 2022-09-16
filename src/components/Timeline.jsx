@@ -5,7 +5,7 @@ import img3 from '../assets/pic8.png';
 
 const Timeline = () => {
   return (
-    <section className='px-4 md:px-[11rem]' id='timeline'>
+    <section className='bg-hero-image px-4 md:px-[11rem]' id='timeline'>
         <div>
             <div>
                 <h2 className='uppercase font-bold md:text-4xl text-center lg:text-left lg:text-5xl'>Timeline</h2>

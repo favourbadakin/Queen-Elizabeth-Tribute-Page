@@ -6,7 +6,7 @@ import img3 from '../assets/pic3.png';
 
 const Biography = () => {
   return (
-    <section className='px-4 my-8 md:my-16 md:px-[11rem]' id='biography'>
+    <section className='bg-hero-image px-4 my-8 md:mb-16 md:mt-10 md:px-[11rem]' id='biography'>
         <div>
             <h2 className='font-bold md:text-4xl text-center lg:text-left lg:text-5xl'>BIOGRAPHY</h2>
             <p className='text-sm mt-2 mb-6 text-center lg:text-left'>A short account of Queen Elizabeth II's Life</p>
