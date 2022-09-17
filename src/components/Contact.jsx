@@ -23,7 +23,7 @@ const handleSubmit = async (e) => {
         message: message,
     })
    
-    .then(()=>{
+    .then(() => {
         setLoader(false);
     })
     .catch( error => {
@@ -43,7 +43,7 @@ const handleSubmit = async (e) => {
         </div>
         <div className='flex gap-8'>
             <div className='w-full'>
-                <form className='max-w-4xl' onSubmit={handleSubmit} data-aos='zoom-in'>
+                <form className='max-w-4xl' onSubmit={handleSubmit} data-aos='flip-down'>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Name' className='mr-7 font-semibold'>Name</label>
                         <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Name' value={name} onChange={(e) => setName(e.target.value)}></input>
@@ -60,7 +60,7 @@ const handleSubmit = async (e) => {
                         <label htmlFor='Message' className='mr-2 font-semibold'>Message</label>
                         <textarea className='border p-3 focus:outline-none focus:border-primary w-full h-48' id='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                     </div>
-                    <p>{loader ? <span className='italic'>Please wait...</span>:<span></span>}</p>
+                    <p>{loader ? <span className='italic'>Sending...</span>:<span></span>}</p>
                     <div className='mt-4 md:ml-[4.5rem] grid place-items-center'>
                         <button href='/#' style={{backgroundColor : loader ? '#CCC' : '#1B1C1E'}} className='border rounded-lg mx-auto w-40 border-color-secondary px-8 py-4 inline-block text-primary hover:bg-hero-image hover:bg-secondary'>Send</button>
                     
