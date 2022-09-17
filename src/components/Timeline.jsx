@@ -13,7 +13,7 @@ const Timeline = () => {
 },[]);
 
   return (
-    <section className='bg-hero-image px-4 md:px-[11rem] overflow-x-hidden' id='timeline'>
+    <section className='bg-hero-image pt-4 px-4 md:px-[11rem] overflow-x-hidden' id='timeline'>
         <div>
             <div className='flex justify-between items-center'>
             <div>
