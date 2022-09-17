@@ -43,7 +43,7 @@ const handleSubmit = async (e) => {
         </div>
         <div className='flex gap-8'>
             <div className='w-full'>
-                <form className='max-w-4xl' onSubmit={handleSubmit} data-aos='flip-down'>
+                <form className='max-w-4xl' onSubmit={handleSubmit} data-aos='fade-down'>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Name' className='mr-7 font-semibold'>Name</label>
                         <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Name' value={name} onChange={(e) => setName(e.target.value)}></input>
