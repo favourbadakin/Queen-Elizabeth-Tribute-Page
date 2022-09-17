@@ -62,7 +62,7 @@ const handleSubmit = async (e) => {
                     </div>
                     <p>{loader ? <span className='italic'>Please wait...</span>:<span></span>}</p>
                     <div className='mt-4 md:ml-[4.5rem] grid place-items-center'>
-                        <button href='/#' style={{backgroundColor : loader ? '#CCC' : '#1B1C1E'}} className='border rounded-lg mx-auto w-40 border-color-secondary px-8 py-4 inline-block hover:text-primary hover:bg-hero-image hover:bg-secondary'>Send</button>
+                        <button href='/#' style={{backgroundColor : loader ? '#CCC' : '#1B1C1E'}} className='border rounded-lg mx-auto w-40 border-color-secondary px-8 py-4 inline-block text-primary hover:bg-hero-image hover:bg-secondary'>Send</button>
                     
                     </div>
                 </form>
