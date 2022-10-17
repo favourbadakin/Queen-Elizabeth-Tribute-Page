@@ -46,7 +46,7 @@ const handleSubmit = async (e) => {
                 <form className='max-w-4xl' onSubmit={handleSubmit} data-aos='fade-down'>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Name' className='mr-7 font-semibold'>Name</label>
-                        <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Name' value={name} onChange={(e) => setName(e.target.value)}></input>
+                        <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Name' value={name} onChange={(e) => setName(e.target.value)} required/>
                     </div>
                     {/* <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Email' className='mr-8 font-semibold'>Email</label>
@@ -54,11 +54,11 @@ const handleSubmit = async (e) => {
                     </div> */}
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Subject' className='mr-4 font-semibold'>Subject</label>
-                        <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Subject' value={subject} onChange={(e) => setSubject(e.target.value)}></input>
+                        <input className='border p-3 focus:outline-none focus:border-primary w-full' id='Subject' value={subject} onChange={(e) => setSubject(e.target.value)} required/>
                     </div>
                     <div className='md:flex justify-between'>
                         <label htmlFor='Message' className='mr-2 font-semibold'>Message</label>
-                        <textarea className='border p-3 focus:outline-none focus:border-primary w-full h-48' id='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                        <textarea className='border p-3 focus:outline-none focus:border-primary w-full h-48' id='Message' value={message} onChange={(e) => setMessage(e.target.value)} required/>
                     </div>
                     <p>{loader ? <span className='italic'>Sending...</span>:<span></span>}</p>
                     <div className='mt-4 md:ml-[4.5rem] grid place-items-center'>
